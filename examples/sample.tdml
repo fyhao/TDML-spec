@@ -1,0 +1,9 @@
+- [ ] main task 1 which is pending (start: 20251112)
+- [w] 1330,yyyy main task 2 which is in progress worked start from 13:30pm (start: 20251112)
+- [x] 1339,1423 main task 3 which is done start from 13:39pm and end at 14:23pm (start: 20251112)
+- [x] 11121339,1450 main task 4 start from 2025-11-12 13:39pm and ended with same day 14:50pm (start: 20251112)
+- [x] 11121339,11131450 main task 5 start from 2025-11-12 13:39pm and ended with 2025-11-13 14:50pm (start: 20251112)
+
+- [ ] main task 6 (start: 20251112)
+  - [w] 0930,yyyy sub task 6.1 start from 2025-11-13 09:30am (start: 20251113)
+  - [w] 11140930,yyyy sub task 6.2 start from 2025-11-14 09:30am (start: 20251113)
