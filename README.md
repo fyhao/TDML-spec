@@ -4,10 +4,11 @@ TDML stands for TodoList Markup Language. It is a plain-text, line-oriented form
 
 This folder contains:
 
-- `README.md`: quick overview and canonical examples
-- `SPEC.md`: detailed syntax, import/export, and UI behavior
-- `examples/sample.tdml`: sample TDML document
-- `reference/tdml.ts`: reference TypeScript parser/stringifier based on the sample parser
+- [README.md](README.md): quick overview and canonical examples
+- [FORMAL-SPEC.md](FORMAL-SPEC.md): normative grammar and conformance definition
+- [SPEC.md](SPEC.md): detailed syntax, import/export, and UI behavior
+- [examples/sample.tdml](examples/sample.tdml): sample TDML document
+- [reference/tdml.ts](reference/tdml.ts): reference TypeScript parser/stringifier based on the sample parser
 
 The parser-oriented form is the canonical serialized TDML format. If users author shorthand examples in prose, exporters should normalize them into canonical task lines before saving.
 
@@ -75,4 +76,4 @@ A TDML UI should:
 - import TDML text and export canonical TDML text
 - preserve indentation and structured fields during round-trip whenever possible
 
-See `SPEC.md` for the full definition.
+See [FORMAL-SPEC.md](FORMAL-SPEC.md) for the normative definition and [SPEC.md](SPEC.md) for the explanatory specification.

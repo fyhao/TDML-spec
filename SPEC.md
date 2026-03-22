@@ -1,5 +1,7 @@
 # TDML Specification
 
+This document is explanatory. For the normative grammar and conformance rules, see [FORMAL-SPEC.md](FORMAL-SPEC.md).
+
 ## 1. Overview
 
 TDML, or TodoList Markup Language, is a text format for representing task trees. Each non-empty line represents one task node. A task may include:
