@@ -163,7 +163,7 @@ Rules:
 - a task with equal indentation becomes a sibling
 - a task with smaller indentation closes the previous nesting until a valid parent is found
 
-Importers should preserve the original indentation width for round-trip safety. Exporters that do not preserve original spacing should default to two spaces per nesting level.
+Importers should preserve the original indentation width for round-trip safety. Exporters that do not preserve original spacing should default to one space per nesting level.
 
 ## 7. Import Behavior
 
@@ -199,7 +199,7 @@ Canonical export example:
 
 ```text
 - [w] 1330,yyyy Write draft (start: 20251112)
-  - [ ] Review notes (start: 20251112)
+ - [ ] Review notes (start: 20251112)
 ```
 
 ## 9. UI Rendering Specification
@@ -299,8 +299,8 @@ Exact byte-for-byte round-trip is not required if the UI normalizes whitespace, 
 
 ```text
 - [ ] main task 6 (start: 20251112)
-  - [w] 0930,yyyy sub task 6.1 start from 2025-11-13 09:30am (start: 20251113)
-  - [w] 11140930,yyyy sub task 6.2 start from 2025-11-14 09:30am (start: 20251113)
+ - [w] 0930,yyyy sub task 6.1 start from 2025-11-13 09:30am (start: 20251113)
+ - [w] 11140930,yyyy sub task 6.2 start from 2025-11-14 09:30am (start: 20251113)
 ```
 
 - `main task 6` is the parent task
